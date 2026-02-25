@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceVault Storage — Research Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <span class="logo-icon" data-lucide="box"></span>
+      <span class="logo-text">SpaceVault</span>
+    </div>
+    <nav class="sidebar-nav" id="sidebar-nav"></nav>
+    <div class="sidebar-footer">
+      <span class="sidebar-footer-text">Research Dashboard v1.0</span>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main" id="main">
+    <!-- Header -->
+    <header class="header">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+        <span data-lucide="menu"></span>
+      </button>
+      <h1 class="header-title" id="header-title">Overview</h1>
+      <div class="header-actions">
+        <label class="edit-toggle">
+          <input type="checkbox" id="edit-mode-toggle">
+          <span class="edit-toggle-slider"></span>
+          <span class="edit-toggle-label">Edit Mode</span>
+        </label>
+        <button class="btn btn-outline btn-sm" id="reset-btn" style="display:none;">
+          <span data-lucide="rotate-ccw" style="width:14px;height:14px;"></span>
+          Reset All
+        </button>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="content" id="content"></div>
+  </main>
+
+  <!-- Add Section Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Add New Section</h3>
+        <button class="modal-close" id="modal-close">
+          <span data-lucide="x"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-option" data-type="text">
+          <span data-lucide="file-text"></span>
+          <div>
+            <strong>Text Block</strong>
+            <p>A paragraph of content</p>
+          </div>
+        </div>
+        <div class="modal-option" data-type="kv-card">
+          <span data-lucide="list"></span>
+          <div>
+            <strong>Key-Value Card</strong>
+            <p>Labeled data pairs</p>
+          </div>
+        </div>
+        <div class="modal-option" data-type="table">
+          <span data-lucide="table"></span>
+          <div>
+            <strong>Table</strong>
+            <p>Data in rows and columns</p>
+          </div>
+        </div>
+        <div class="modal-option" data-type="checklist-card">
+          <span data-lucide="check-square"></span>
+          <div>
+            <strong>Checklist</strong>
+            <p>List with check icons</p>
+          </div>
+        </div>
+        <div class="modal-option" data-type="list-card">
+          <span data-lucide="list-ordered"></span>
+          <div>
+            <strong>List Card</strong>
+            <p>Simple bullet list</p>
+          </div>
+        </div>
+        <div class="modal-option" data-type="web-page-section">
+          <span data-lucide="layout"></span>
+          <div>
+            <strong>Web Page Section</strong>
+            <p>Website page content section</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
