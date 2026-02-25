@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home / Company Overview - SpaceVault Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">🔒 SpaceVault</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="online-presence.html">Online Presence</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="employment.html">Employment</a>
+        <a href="competitive.html">Competitive Analysis</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+      <div class="header-controls">
+        <button id="editModeBtn" class="btn-edit-mode">✏️ Edit Mode</button>
+        <button id="resetBtn" class="btn-reset">🔄 Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="edit-mode-banner">✏️ Edit Mode is ON — Click any text to edit</div>
+
+  <main class="page-main">
+    <div class="page-hero">
+      <div class="hero-badge">Company Overview</div>
+      <h1>Space Vault Storage Cargo Packaging L.L.C</h1>
+      <p>Dubai-based self-storage, cargo packaging &amp; moving services — Al Quoz Industrial Area 4</p>
+    </div>
+
+    <!-- Stats Row -->
+    <div class="stats-row" style="margin-bottom:1.5rem;">
+      <div class="stat-box">
+        <div class="stat-number">5★</div>
+        <div class="stat-label">ServiceMarket Rating</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">LLC</div>
+        <div class="stat-label">Legal Structure</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">155+</div>
+        <div class="stat-label">Max Unit sq ft</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">2024</div>
+        <div class="stat-label">Research Year</div>
+      </div>
+    </div>
+
+    <!-- Company Identity -->
+    <div class="section-card" data-key="company-identity">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="company-identity-title">🏢 Company Identity</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label">Full Legal Name</div>
+          <div class="info-value" data-editable data-key="ci-legal-name">Space Vault Storage Cargo Packaging L.L.C</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Brand Name</div>
+          <div class="info-value" data-editable data-key="ci-brand">SpaceVault Storage / SpaceVault Self-Storage</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Legal Structure</div>
+          <div class="info-value" data-editable data-key="ci-structure">L.L.C — UAE Mainland (Dubai DED)</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Industry</div>
+          <div class="info-value" data-editable data-key="ci-industry">Self-Storage, Cargo Packaging, Shipping &amp; Logistics, Moving Services</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Infobel ID</div>
+          <div class="info-value" data-editable data-key="ci-infobel">AE100714224 / 0961020151</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">License Authority</div>
+          <div class="info-value" data-editable data-key="ci-license">Dubai Department of Economy and Tourism (DED)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Location & Contact -->
+    <div class="section-card" data-key="location-contact">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="lc-title">📍 Location &amp; Contact</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label">Address</div>
+          <div class="info-value" data-editable data-key="lc-address">109, 10th Street, Al Quoz Industrial Area 4, Hadaeq Mohammed Bin Rashid, Dubai, UAE</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Phone</div>
+          <div class="info-value" data-editable data-key="lc-phone"><a href="tel:+971501117856">+971 50 111 7856</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Business Hours</div>
+          <div class="info-value" data-editable data-key="lc-hours">Mon–Sat: 8:00 AM – 6:00 PM (Closed Sundays)</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Website</div>
+          <div class="info-value" data-editable data-key="lc-website"><a href="https://spacevault.com" target="_blank" rel="noopener">spacevault.com</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Google Maps</div>
+          <div class="info-value" data-editable data-key="lc-maps"><a href="https://maps.google.com/?q=Al+Quoz+Industrial+Area+4+Dubai" target="_blank" rel="noopener">View on Google Maps</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Area</div>
+          <div class="info-value" data-editable data-key="lc-area">Al Quoz Industrial Area 4 — strategic industrial hub with easy truck/van access</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Registration Details -->
+    <div class="section-card" data-key="registration">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="reg-title">📋 Registration Details</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label">Infobel ID 1</div>
+          <div class="info-value" data-editable data-key="reg-infobel1">AE100714224</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Infobel ID 2</div>
+          <div class="info-value" data-editable data-key="reg-infobel2">0961020151</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">DED Registration</div>
+          <div class="info-value" data-editable data-key="reg-ded">UAE Mainland — Dubai Department of Economy and Tourism (DED)</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Verification Portal</div>
+          <div class="info-value" data-editable data-key="reg-portal"><a href="https://ded.ae" target="_blank" rel="noopener">ded.ae</a> / <a href="https://dubaieconomy.ae" target="_blank" rel="noopener">dubaieconomy.ae</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Infobel Listing</div>
+          <div class="info-value" data-editable data-key="reg-infobel-link"><a href="https://local.infobel.ae/AE100714224/space_vault_storage_cargo_packaging_l_l_c-dubai.html" target="_blank" rel="noopener">View on Infobel</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">2GIS Listing</div>
+          <div class="info-value" data-editable data-key="reg-2gis"><a href="https://2gis.ae/dubai/firm/70000001091869413" target="_blank" rel="noopener">2gis.ae — Firm ID 70000001091869413</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Company Description -->
+    <div class="section-card" data-key="company-description">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="cd-title">📝 Company Description</h2>
+      <p class="description-text" data-editable data-key="cd-text">
+        Space Vault Storage Cargo Packaging L.L.C is a Dubai-based self-storage and cargo packaging company
+        strategically located in Al Quoz Industrial Area 4. Offering a one-stop-shop for storage, packaging,
+        and moving services, SpaceVault caters to both personal and business clients across the UAE. With a
+        modern, climate-controlled facility and a customer-focused team, SpaceVault is positioned as an
+        accessible and professional storage solution in Dubai's growing self-storage market.
+      </p>
+      <div class="note-box" style="margin-top:1.25rem;">
+        <strong>Key Differentiator:</strong> Unlike competitors who focus solely on storage, SpaceVault combines
+        self-storage, professional cargo packaging, and moving support under one roof — making it a true
+        one-stop logistics solution for residents and businesses in Dubai.
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 <strong>SpaceVault Storage Cargo Packaging L.L.C</strong> | Research Report</p>
+  </footer>
+
+  <div id="toast-container"></div>
+  <div id="unsaved-indicator" class="unsaved-indicator hidden">💾 Unsaved changes saved automatically</div>
+  <script src="app.js"></script>
+</body>
+</html>

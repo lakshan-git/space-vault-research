@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews - SpaceVault Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">🔒 SpaceVault</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="online-presence.html">Online Presence</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="employment.html">Employment</a>
+        <a href="competitive.html">Competitive Analysis</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+      <div class="header-controls">
+        <button id="editModeBtn" class="btn-edit-mode">✏️ Edit Mode</button>
+        <button id="resetBtn" class="btn-reset">🔄 Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="edit-mode-banner">✏️ Edit Mode is ON — Click any text to edit</div>
+
+  <main class="page-main">
+    <div class="page-hero">
+      <div class="hero-badge">Reviews &amp; Reputation</div>
+      <h1>Customer Reviews &amp; Reputation</h1>
+      <p>What customers say about SpaceVault — verified reviews, platform ratings, and reputation analysis</p>
+    </div>
+
+    <!-- Stats Row -->
+    <div class="stats-row" style="margin-bottom:1.5rem;">
+      <div class="stat-box">
+        <div class="stat-number">5/5</div>
+        <div class="stat-label">ServiceMarket Rating</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">2</div>
+        <div class="stat-label">Verified Reviews</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">0</div>
+        <div class="stat-label">Negative Reports</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">✅</div>
+        <div class="stat-label">No Scam Reports</div>
+      </div>
+    </div>
+
+    <!-- Customer Reviews -->
+    <div class="section-card" data-key="customer-reviews">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="cr-title">⭐ Customer Reviews</h2>
+      <p class="section-subtitle" data-editable data-key="cr-subtitle">Verified reviews from ServiceMarket platform</p>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars" data-editable data-key="cr-r1-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text" data-editable data-key="cr-r1-text">
+            "I recently used SpaceVault Storage, and I'm extremely satisfied with their service. The facility
+            is clean and secure, &amp; the staff is incredibly helpful. Overall, my experience with SpaceVault
+            Storage was nothing short of excellent. If you're in need of a secure, clean, &amp; customer-focused
+            storage solution, I wholeheartedly recommend SpaceVault Storage. They've earned my trust with a
+            five-star rating."
+          </p>
+          <div class="review-author" data-editable data-key="cr-r1-author">Sandra Fernandes</div>
+          <div class="review-source" data-editable data-key="cr-r1-source">✅ Verified review via ServiceMarket</div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars" data-editable data-key="cr-r2-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text" data-editable data-key="cr-r2-text">
+            "The service was very smooth, the storage location is very well located and the team was great."
+          </p>
+          <div class="review-author" data-editable data-key="cr-r2-author">Paul Bauer</div>
+          <div class="review-source" data-editable data-key="cr-r2-source">✅ Verified review via ServiceMarket</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Platform Ratings -->
+    <div class="section-card" data-key="platform-ratings">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="pr-title">📊 Platform Ratings &amp; Listings</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Platform</th>
+              <th>Rating / Status</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-key="pr-r1-platform" data-editable><strong>ServiceMarket</strong></td>
+              <td data-key="pr-r1-rating" data-editable><span class="status-ok">⭐ 5 / 5</span></td>
+              <td data-key="pr-r1-notes" data-editable>2 verified customer reviews — highest possible rating</td>
+            </tr>
+            <tr>
+              <td data-key="pr-r2-platform" data-editable><strong>HiDubai</strong></td>
+              <td data-key="pr-r2-rating" data-editable><span class="status-info">Listed</span></td>
+              <td data-key="pr-r2-notes" data-editable>Active business listing in Al Quoz Industrial 4 category</td>
+            </tr>
+            <tr>
+              <td data-key="pr-r3-platform" data-editable><strong>2GIS</strong></td>
+              <td data-key="pr-r3-rating" data-editable><span class="status-info">Listed</span></td>
+              <td data-key="pr-r3-notes" data-editable>Map and directory entry with location details</td>
+            </tr>
+            <tr>
+              <td data-key="pr-r4-platform" data-editable><strong>Google Maps</strong></td>
+              <td data-key="pr-r4-rating" data-editable><span class="status-warn">Not Verified</span></td>
+              <td data-key="pr-r4-notes" data-editable>Google Business listing not independently confirmed during research</td>
+            </tr>
+            <tr>
+              <td data-key="pr-r5-platform" data-editable><strong>Porto.bot</strong></td>
+              <td data-key="pr-r5-rating" data-editable><span class="status-info">Listed</span></td>
+              <td data-key="pr-r5-notes" data-editable>Active 155 sq ft Business Vault listing with booking capability</td>
+            </tr>
+            <tr>
+              <td data-key="pr-r6-platform" data-editable><strong>Scam / Fraud Status</strong></td>
+              <td data-key="pr-r6-rating" data-editable><span class="status-ok">✅ No Reports</span></td>
+              <td data-key="pr-r6-notes" data-editable>No fraud, scam, or negative reports found across any platform</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Reputation Analysis -->
+    <div class="section-card" data-key="reputation-analysis">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="ra-title">🔍 Reputation Analysis</h2>
+      <p class="description-text" data-editable data-key="ra-intro">
+        SpaceVault Storage has a <strong>positive but limited online reputation</strong>. The verified reviews
+        on ServiceMarket are highly positive (5/5 stars), reflecting satisfied customers. The company has
+        active listings on multiple UAE directories (HiDubai, 2GIS, Infobel, VivaUAE), which improves
+        discoverability across search platforms.
+      </p>
+      <div class="info-grid" style="margin-top:1.25rem;">
+        <div class="info-item" style="border-left-color: var(--green);">
+          <div class="info-label">✅ Positive Signal</div>
+          <div class="info-value" data-editable data-key="ra-pos1">All verified reviews are 5 stars — 100% positive customer feedback</div>
+        </div>
+        <div class="info-item" style="border-left-color: var(--green);">
+          <div class="info-label">✅ Positive Signal</div>
+          <div class="info-value" data-editable data-key="ra-pos2">No negative reviews or fraud reports found across any research source</div>
+        </div>
+        <div class="info-item" style="border-left-color: var(--green);">
+          <div class="info-label">✅ Positive Signal</div>
+          <div class="info-value" data-editable data-key="ra-pos3">Active on Facebook with promotions — indicates ongoing, legitimate operations</div>
+        </div>
+        <div class="info-item" style="border-left-color: var(--green);">
+          <div class="info-label">✅ Positive Signal</div>
+          <div class="info-value" data-editable data-key="ra-pos4">YouTube presence shows facility transparency — builds customer trust before visit</div>
+        </div>
+        <div class="info-item" style="border-left-color: var(--orange);">
+          <div class="info-label">⚠️ Area for Growth</div>
+          <div class="info-value" data-editable data-key="ra-warn1">Limited review volume compared to established competitors like The Box or Easytruck</div>
+        </div>
+        <div class="info-item" style="border-left-color: var(--orange);">
+          <div class="info-label">⚠️ Area for Growth</div>
+          <div class="info-value" data-editable data-key="ra-warn2">Google Business listing status not independently confirmed — a gap in local SEO</div>
+        </div>
+      </div>
+      <div class="note-box" style="margin-top:1.25rem;">
+        <strong>Summary:</strong> SpaceVault's reputation is clean and entirely positive. The primary
+        opportunity is to grow review volume across more platforms (especially Google Maps) to build
+        competitive social proof against larger, more established storage providers in Dubai.
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 <strong>SpaceVault Storage Cargo Packaging L.L.C</strong> | Research Report</p>
+  </footer>
+
+  <div id="toast-container"></div>
+  <div id="unsaved-indicator" class="unsaved-indicator hidden">💾 Unsaved changes saved automatically</div>
+  <script src="app.js"></script>
+</body>
+</html>

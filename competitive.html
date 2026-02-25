@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competitive Analysis - SpaceVault Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">🔒 SpaceVault</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="online-presence.html">Online Presence</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="employment.html">Employment</a>
+        <a href="competitive.html">Competitive Analysis</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+      <div class="header-controls">
+        <button id="editModeBtn" class="btn-edit-mode">✏️ Edit Mode</button>
+        <button id="resetBtn" class="btn-reset">🔄 Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="edit-mode-banner">✏️ Edit Mode is ON — Click any text to edit</div>
+
+  <main class="page-main">
+    <div class="page-hero">
+      <div class="hero-badge">Competitive Analysis</div>
+      <h1>Competitive Analysis</h1>
+      <p>How SpaceVault compares to Dubai's storage market — competitor comparison, advantages, and SWOT analysis</p>
+    </div>
+
+    <!-- Competitor Comparison Table -->
+    <div class="section-card" data-key="competitor-table">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="ct-title">🏆 Dubai Storage Market — Competitor Comparison</h2>
+      <p class="section-subtitle" data-editable data-key="ct-subtitle">SpaceVault (highlighted in gold) vs. major Dubai self-storage competitors</p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Website</th>
+              <th>Min. Price</th>
+              <th>Key Differentiator</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="sv-highlight">
+              <td data-key="ct-r1-name" data-editable><strong>SpaceVault Storage ⭐</strong></td>
+              <td data-key="ct-r1-url" data-editable><a href="https://spacevault.com" target="_blank" rel="noopener">spacevault.com</a></td>
+              <td data-key="ct-r1-price" data-editable>~AED 200/mo</td>
+              <td data-key="ct-r1-diff" data-editable>One-stop-shop: storage + cargo packaging + moving under one roof</td>
+            </tr>
+            <tr>
+              <td data-key="ct-r2-name" data-editable>SafeStorage</td>
+              <td data-key="ct-r2-url" data-editable><a href="https://safestorage.ae" target="_blank" rel="noopener">safestorage.ae</a></td>
+              <td data-key="ct-r2-price" data-editable>AED 99/mo</td>
+              <td data-key="ct-r2-diff" data-editable>Budget-friendly market leader — lowest entry price point in Dubai</td>
+            </tr>
+            <tr>
+              <td data-key="ct-r3-name" data-editable>GetSpace</td>
+              <td data-key="ct-r3-url" data-editable><a href="https://getspacestorage.com" target="_blank" rel="noopener">getspacestorage.com</a></td>
+              <td data-key="ct-r3-price" data-editable>AED 150/mo</td>
+              <td data-key="ct-r3-diff" data-editable>App-based booking, instant access, fully transparent pricing model</td>
+            </tr>
+            <tr>
+              <td data-key="ct-r4-name" data-editable>The Box</td>
+              <td data-key="ct-r4-url" data-editable><a href="https://theboxme.com" target="_blank" rel="noopener">theboxme.com</a></td>
+              <td data-key="ct-r4-price" data-editable>AED 400/mo</td>
+              <td data-key="ct-r4-diff" data-editable>Largest UAE storage network, units ranging 12–1,000 sq ft</td>
+            </tr>
+            <tr>
+              <td data-key="ct-r5-name" data-editable>800 Storage</td>
+              <td data-key="ct-r5-url" data-editable>—</td>
+              <td data-key="ct-r5-price" data-editable>AED 400–500/mo</td>
+              <td data-key="ct-r5-diff" data-editable>Exceptional customer care focus and personalised service</td>
+            </tr>
+            <tr>
+              <td data-key="ct-r6-name" data-editable>Easytruck</td>
+              <td data-key="ct-r6-url" data-editable><a href="https://easytruck.ae" target="_blank" rel="noopener">easytruck.ae</a></td>
+              <td data-key="ct-r6-price" data-editable>AED 500/mo</td>
+              <td data-key="ct-r6-diff" data-editable>Modular EasyPods system, strong affordability for mid-range</td>
+            </tr>
+            <tr>
+              <td data-key="ct-r7-name" data-editable>Vachi Storage</td>
+              <td data-key="ct-r7-url" data-editable>—</td>
+              <td data-key="ct-r7-price" data-editable>AED 550/mo</td>
+              <td data-key="ct-r7-diff" data-editable>AI security systems, specialty storage for art, cars &amp; boats</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- SpaceVault Advantages -->
+    <div class="section-card" data-key="sv-advantages">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="sva-title">✅ SpaceVault's Competitive Advantages</h2>
+      <p class="section-subtitle" data-editable data-key="sva-subtitle">What makes SpaceVault stand out in Dubai's crowded storage market</p>
+      <ul class="advantages-list">
+        <li data-editable data-key="sva-1">✅ <strong>One-stop-shop:</strong> storage + packaging + moving under one roof — unique in the market</li>
+        <li data-editable data-key="sva-2">✅ <strong>Competitive entry pricing</strong> at ~AED 200/month — accessible for personal and business clients</li>
+        <li data-editable data-key="sva-3">✅ <strong>Online booking portal</strong> with customer login at spacevault.com — full digital experience</li>
+        <li data-editable data-key="sva-4">✅ <strong>Climate-controlled, secure facility</strong> with 24/7 CCTV and individual access codes</li>
+        <li data-editable data-key="sva-5">✅ <strong>Strategic Al Quoz location</strong> — industrial hub with easy truck/van access and on-site parking</li>
+        <li data-editable data-key="sva-6">✅ <strong>Active promotions</strong> — 50% off first month advertised on Facebook and ServiceMarket</li>
+        <li data-editable data-key="sva-7">✅ <strong>Perfect customer reviews</strong> — 5/5 stars on ServiceMarket with zero negative reports</li>
+        <li data-editable data-key="sva-8">✅ <strong>Active social media</strong> with Facebook promotions and YouTube facility transparency</li>
+      </ul>
+    </div>
+
+    <!-- SWOT Analysis -->
+    <div class="section-card" data-key="swot">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="swot-title">📋 SWOT Analysis</h2>
+      <p class="section-subtitle" data-editable data-key="swot-subtitle">Strategic assessment of SpaceVault's market position</p>
+      <div class="swot-grid">
+        <div class="swot-cell swot-strengths">
+          <h3 data-editable data-key="swot-s-title">💪 Strengths</h3>
+          <ul>
+            <li data-editable data-key="swot-s-1">One-stop-shop: storage, packaging &amp; moving combined</li>
+            <li data-editable data-key="swot-s-2">Competitive entry pricing (~AED 200/month)</li>
+            <li data-editable data-key="swot-s-3">Online booking portal with customer login system</li>
+            <li data-editable data-key="swot-s-4">Perfect 5/5 customer review rating</li>
+            <li data-editable data-key="swot-s-5">Climate-controlled, secure facility with CCTV</li>
+            <li data-editable data-key="swot-s-6">Strategic Al Quoz industrial location</li>
+            <li data-editable data-key="swot-s-7">Active social media with promotional offers</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-opportunities">
+          <h3 data-editable data-key="swot-o-title">🎯 Opportunities</h3>
+          <ul>
+            <li data-editable data-key="swot-o-1">Growing Dubai self-storage market demand</li>
+            <li data-editable data-key="swot-o-2">Increasing e-commerce driving business storage needs</li>
+            <li data-editable data-key="swot-o-3">Potential expansion to additional Dubai locations</li>
+            <li data-editable data-key="swot-o-4">SEO and digital marketing to boost search visibility</li>
+            <li data-editable data-key="swot-o-5">Google Business profile optimisation opportunity</li>
+            <li data-editable data-key="swot-o-6">Referral and loyalty programs to drive repeat business</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-weaknesses">
+          <h3 data-editable data-key="swot-w-title">⚠️ Weaknesses</h3>
+          <ul>
+            <li data-editable data-key="swot-w-1">Limited online review volume vs. established competitors</li>
+            <li data-editable data-key="swot-w-2">Website not yet highly ranked in search engine results</li>
+            <li data-editable data-key="swot-w-3">No dedicated mobile app (competitors like GetSpace have one)</li>
+            <li data-editable data-key="swot-w-4">Company size and headcount not publicly disclosed</li>
+            <li data-editable data-key="swot-w-5">Single location limits geographic reach across Dubai</li>
+          </ul>
+        </div>
+        <div class="swot-cell swot-threats">
+          <h3 data-editable data-key="swot-t-title">🚨 Threats</h3>
+          <ul>
+            <li data-editable data-key="swot-t-1">Highly competitive market with established players (The Box, Easytruck)</li>
+            <li data-editable data-key="swot-t-2">Price-sensitive customers may prefer SafeStorage's AED 99 entry point</li>
+            <li data-editable data-key="swot-t-3">Building brand recognition against larger, better-known competitors</li>
+            <li data-editable data-key="swot-t-4">Tech-forward competitors (GetSpace) with superior app experiences</li>
+            <li data-editable data-key="swot-t-5">Market saturation risk as Dubai storage market continues to grow</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 <strong>SpaceVault Storage Cargo Packaging L.L.C</strong> | Research Report</p>
+  </footer>
+
+  <div id="toast-container"></div>
+  <div id="unsaved-indicator" class="unsaved-indicator hidden">💾 Unsaved changes saved automatically</div>
+  <script src="app.js"></script>
+</body>
+</html>

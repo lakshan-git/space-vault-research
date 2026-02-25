@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Presence - SpaceVault Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">🔒 SpaceVault</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="online-presence.html">Online Presence</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="employment.html">Employment</a>
+        <a href="competitive.html">Competitive Analysis</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+      <div class="header-controls">
+        <button id="editModeBtn" class="btn-edit-mode">✏️ Edit Mode</button>
+        <button id="resetBtn" class="btn-reset">🔄 Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="edit-mode-banner">✏️ Edit Mode is ON — Click any text to edit</div>
+
+  <main class="page-main">
+    <div class="page-hero">
+      <div class="hero-badge">Online Presence</div>
+      <h1>Online Presence &amp; Booking</h1>
+      <p>SpaceVault's digital footprint — website, directories, social media, and how to book a unit</p>
+    </div>
+
+    <!-- Official Website -->
+    <div class="section-card" data-key="official-website">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="ow-title">🌐 Official Website</h2>
+      <p class="description-text" data-editable data-key="ow-text">
+        SpaceVault maintains a professional website with a dedicated customer login portal, allowing clients
+        to manage bookings, payments, and unit access online. The website provides full details on available
+        unit sizes, pricing, and contact information.
+      </p>
+      <div class="info-grid" style="margin-top:1.25rem;">
+        <div class="info-item">
+          <div class="info-label">Main Website</div>
+          <div class="info-value" data-editable data-key="ow-main"><a href="https://spacevault.com" target="_blank" rel="noopener">spacevault.com</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Customer Login Portal</div>
+          <div class="info-value" data-editable data-key="ow-login"><a href="https://spacevault.com/login" target="_blank" rel="noopener">spacevault.com/login</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Contact Page</div>
+          <div class="info-value" data-editable data-key="ow-contact"><a href="https://spacevault.com/contact-us" target="_blank" rel="noopener">spacevault.com/contact-us</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Portal Features</div>
+          <div class="info-value" data-editable data-key="ow-features">Online booking, payment management, unit access, account management</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Directory Listings -->
+    <div class="section-card" data-key="directory-listings">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="dl-title">📁 Directory Listings</h2>
+      <p class="section-subtitle" data-editable data-key="dl-subtitle">SpaceVault is listed across multiple UAE business directories and booking platforms</p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Platform</th>
+              <th>URL / Link</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-key="dl-r1-name" data-editable><strong>Porto.bot</strong></td>
+              <td data-key="dl-r1-url" data-editable><a href="https://porto.bot/app/venue/space-vault-storage-726/listing/155-sqft-unit-business-vault-1011" target="_blank" rel="noopener">porto.bot — 155 sq ft Business Vault</a></td>
+              <td data-key="dl-r1-notes" data-editable>Business Vault listing, 155 sq ft unit — confirmed active listing</td>
+            </tr>
+            <tr>
+              <td data-key="dl-r2-name" data-editable><strong>ServiceMarket</strong></td>
+              <td data-key="dl-r2-url" data-editable><a href="https://servicemarket.com/en/dubai/storage-companies" target="_blank" rel="noopener">servicemarket.com/en/dubai/storage-companies</a></td>
+              <td data-key="dl-r2-notes" data-editable>Dubai storage companies directory — 2 verified 5-star reviews</td>
+            </tr>
+            <tr>
+              <td data-key="dl-r3-name" data-editable><strong>HiDubai</strong></td>
+              <td data-key="dl-r3-url" data-editable><a href="https://hidubai.com/businesses/space-vault-storage-cargo-packaging-shipping-logistics-packaging-services-al-quoz-industrial-4-dubai" target="_blank" rel="noopener">hidubai.com — Al Quoz listing</a></td>
+              <td data-key="dl-r3-notes" data-editable>Active UAE business directory listing in Al Quoz Industrial 4</td>
+            </tr>
+            <tr>
+              <td data-key="dl-r4-name" data-editable><strong>2GIS</strong></td>
+              <td data-key="dl-r4-url" data-editable><a href="https://2gis.ae/dubai/firm/70000001091869413" target="_blank" rel="noopener">2gis.ae — Firm ID 70000001091869413</a></td>
+              <td data-key="dl-r4-notes" data-editable>Map and directory listing with location pin</td>
+            </tr>
+            <tr>
+              <td data-key="dl-r5-name" data-editable><strong>Infobel</strong></td>
+              <td data-key="dl-r5-url" data-editable><a href="https://local.infobel.ae/AE100714224/space_vault_storage_cargo_packaging_l_l_c-dubai.html" target="_blank" rel="noopener">local.infobel.ae — ID: AE100714224</a></td>
+              <td data-key="dl-r5-notes" data-editable>Company registration directory — ID: AE100714224 / 0961020151</td>
+            </tr>
+            <tr>
+              <td data-key="dl-r6-name" data-editable><strong>VivaUAE</strong></td>
+              <td data-key="dl-r6-url" data-editable><a href="https://vivauae.com/services/moving-transport/ad/space-vault-storage,252470.html" target="_blank" rel="noopener">vivauae.com — Moving &amp; Transport</a></td>
+              <td data-key="dl-r6-notes" data-editable>Moving and transport services category listing</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Social Media -->
+    <div class="section-card" data-key="social-media">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="sm-title">📱 Social Media Presence</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label">Facebook Page</div>
+          <div class="info-value" data-editable data-key="sm-facebook">
+            <a href="https://facebook.com/61550754546488" target="_blank" rel="noopener">facebook.com/61550754546488</a>
+            — Primary social media channel. Promotions, offers, and updates posted regularly.
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">YouTube Channel</div>
+          <div class="info-value" data-editable data-key="sm-youtube-channel">
+            <a href="https://youtube.com/@spacevaultstorage" target="_blank" rel="noopener">youtube.com/@spacevaultstorage</a>
+            — Official YouTube channel with facility videos
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">YouTube Facility Video</div>
+          <div class="info-value" data-editable data-key="sm-youtube-video">
+            <a href="https://youtube.com/watch?v=CI5DDVciD8A" target="_blank" rel="noopener">youtube.com/watch?v=CI5DDVciD8A</a>
+            — Facility tour video demonstrating units and services
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Content Strategy</div>
+          <div class="info-value" data-editable data-key="sm-strategy">Promotional offers on Facebook + facility transparency via YouTube. Instagram/LinkedIn not confirmed.</div>
+        </div>
+      </div>
+      <div class="note-box">
+        <strong>Social Media Insight:</strong> Facebook is the primary active channel used for promotional offers
+        (50% off first month) and customer engagement. The YouTube facility video provides transparency and
+        builds trust with potential customers before they visit.
+      </div>
+    </div>
+
+    <!-- How to Book -->
+    <div class="section-card" data-key="how-to-book">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="htb-title">🗓️ How to Book a Storage Unit</h2>
+      <p class="section-subtitle" data-editable data-key="htb-subtitle">Multiple convenient booking channels available</p>
+      <ol class="steps-list">
+        <li data-editable data-key="htb-step1">Visit <a href="https://spacevault.com" target="_blank" rel="noopener">spacevault.com</a> and browse available unit sizes, pricing, and features</li>
+        <li data-editable data-key="htb-step2">Create a customer account or log in at <a href="https://spacevault.com/login" target="_blank" rel="noopener">spacevault.com/login</a> to manage your booking online</li>
+        <li data-editable data-key="htb-step3">Alternatively, browse and book via the <a href="https://porto.bot/app/venue/space-vault-storage-726/listing/155-sqft-unit-business-vault-1011" target="_blank" rel="noopener">Porto.bot listing</a> for the 155 sq ft Business Vault</li>
+        <li data-editable data-key="htb-step4">Book through the <a href="https://servicemarket.com/en/dubai/storage-companies" target="_blank" rel="noopener">ServiceMarket platform</a> — apply any active promotional discounts</li>
+        <li data-editable data-key="htb-step5">Call directly: <a href="tel:+971501117856">+971 50 111 7856</a> — speak with the team for custom requirements or business vault inquiries</li>
+        <li data-editable data-key="htb-step6">Walk in during business hours: <strong>Mon–Sat, 8:00 AM – 6:00 PM</strong> at 109, 10th Street, Al Quoz Industrial Area 4, Dubai</li>
+      </ol>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 <strong>SpaceVault Storage Cargo Packaging L.L.C</strong> | Research Report</p>
+  </footer>
+
+  <div id="toast-container"></div>
+  <div id="unsaved-indicator" class="unsaved-indicator hidden">💾 Unsaved changes saved automatically</div>
+  <script src="app.js"></script>
+</body>
+</html>

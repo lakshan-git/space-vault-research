@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employment - SpaceVault Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">🔒 SpaceVault</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="online-presence.html">Online Presence</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="employment.html">Employment</a>
+        <a href="competitive.html">Competitive Analysis</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+      <div class="header-controls">
+        <button id="editModeBtn" class="btn-edit-mode">✏️ Edit Mode</button>
+        <button id="resetBtn" class="btn-reset">🔄 Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="edit-mode-banner">✏️ Edit Mode is ON — Click any text to edit</div>
+
+  <main class="page-main">
+    <div class="page-hero">
+      <div class="hero-badge">Employment &amp; Team</div>
+      <h1>Employment &amp; Team</h1>
+      <p>SpaceVault's team structure, active job listings, company size, and employee culture insights</p>
+    </div>
+
+    <!-- Active Hiring -->
+    <div class="section-card" data-key="active-hiring">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="ah-title">💼 Active Job Listing</h2>
+      <p class="section-subtitle" data-editable data-key="ah-subtitle">Current open position indicating active business operations</p>
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label">Position</div>
+          <div class="info-value" data-editable data-key="ah-position">Office Accountant</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Location</div>
+          <div class="info-value" data-editable data-key="ah-location">Dubai, UAE</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Posted On</div>
+          <div class="info-value" data-editable data-key="ah-platform">Glassdoor</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Listing Status</div>
+          <div class="info-value" data-editable data-key="ah-status"><span class="status-ok">✅ Active listing</span> — confirmed during research</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Job URL</div>
+          <div class="info-value" data-editable data-key="ah-url">
+            <a href="https://glassdoor.com/job-listing/office-accountant-space-vault-storage-dubai-JV_IC2204498_KO0,17_KE18,43.htm?jl=1010022762743" target="_blank" rel="noopener">
+              View on Glassdoor — Office Accountant
+            </a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Significance</div>
+          <div class="info-value" data-editable data-key="ah-significance">Active hiring indicates growing, operational business with administrative needs</div>
+        </div>
+      </div>
+      <div class="note-box" style="margin-top:1rem;">
+        <strong>Business Signal:</strong> The presence of an active Glassdoor job listing for an Office
+        Accountant position confirms that SpaceVault is an operational business with structured hiring
+        processes — not a shell or inactive company.
+      </div>
+    </div>
+
+    <!-- Company Size -->
+    <div class="section-card" data-key="company-size">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="cs-title">📊 Company Size &amp; Structure</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label">Estimated Size</div>
+          <div class="info-value" data-editable data-key="cs-size">Small business — estimated 5–20 employees</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Public Disclosure</div>
+          <div class="info-value" data-editable data-key="cs-disclosure"><span class="status-warn">⚠️ Not officially disclosed</span> — company size not published publicly</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Legal Structure</div>
+          <div class="info-value" data-editable data-key="cs-legal">L.L.C (Limited Liability Company) — UAE Mainland, Dubai DED</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Facility Type</div>
+          <div class="info-value" data-editable data-key="cs-facility">Single facility operation — Al Quoz Industrial Area 4, Dubai</div>
+        </div>
+      </div>
+      <div style="margin-top:1.25rem;">
+        <h3 style="font-size:1rem; font-weight:700; color:var(--navy); margin-bottom:0.75rem;">Size Indicators</h3>
+        <ul class="service-list">
+          <li data-editable data-key="cs-ind1">Single facility operation — typical of Dubai LLC startups in the storage sector</li>
+          <li data-editable data-key="cs-ind2">One active job listing found — suggests lean team with selective hiring</li>
+          <li data-editable data-key="cs-ind3">Small business structure typical of Dubai LLC startups in the 2–5 year range</li>
+          <li data-editable data-key="cs-ind4">Customer reviews mention responsive staff — suggests a close-knit, hands-on team</li>
+          <li data-editable data-key="cs-ind5">Active social media and multiple booking platforms suggest a tech-savvy management team</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Employee & Culture Info -->
+    <div class="section-card" data-key="employee-culture">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="ec-title">🌟 Employee &amp; Culture Info</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label">Glassdoor Reviews</div>
+          <div class="info-value" data-editable data-key="ec-glassdoor"><span class="status-warn">No employee reviews found</span> — no Glassdoor employee reviews discovered during research</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Work Environment</div>
+          <div class="info-value" data-editable data-key="ec-environment">Not publicly reviewed — no internal culture data available from public sources</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Career Contact</div>
+          <div class="info-value" data-editable data-key="ec-contact">
+            <a href="tel:+971501117856">+971 50 111 7856</a> or
+            <a href="https://spacevault.com/contact-us" target="_blank" rel="noopener">spacevault.com/contact-us</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Expected Team Roles</div>
+          <div class="info-value" data-editable data-key="ec-roles">Customer service, facility management, packaging specialists, drivers, admin/accounts</div>
+        </div>
+      </div>
+      <div class="note-box" style="margin-top:1rem;">
+        <strong>Note:</strong> The absence of negative employee reviews is a neutral-to-positive indicator
+        for a small startup business. It could reflect either a satisfied team or simply that employees
+        haven't posted reviews yet — common for small UAE-based LLCs.
+      </div>
+    </div>
+
+    <!-- Customer Feedback About Team -->
+    <div class="section-card" data-key="team-feedback">
+      <button class="delete-btn" aria-label="Delete section">✕</button>
+      <h2 class="section-title" data-editable data-key="tf-title">💬 Customer Feedback About the Team</h2>
+      <p class="description-text" data-editable data-key="tf-intro">
+        From verified ServiceMarket customer reviews, the SpaceVault team receives consistent praise for
+        helpfulness and responsiveness. Both verified reviewers specifically highlighted the quality of the team.
+      </p>
+      <div class="reviews-grid" style="margin-top:1.25rem;">
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text" data-editable data-key="tf-q1">
+            "the staff is incredibly helpful"
+          </p>
+          <div class="review-author" data-editable data-key="tf-q1-author">Sandra Fernandes</div>
+          <div class="review-source">Verified via ServiceMarket</div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text" data-editable data-key="tf-q2">
+            "the team was great"
+          </p>
+          <div class="review-author" data-editable data-key="tf-q2-author">Paul Bauer</div>
+          <div class="review-source">Verified via ServiceMarket</div>
+        </div>
+      </div>
+      <div class="note-box" style="margin-top:1.25rem;">
+        <strong>Team Reputation:</strong> Team responsiveness and helpfulness are consistently highlighted
+        across 100% of available customer reviews — a strong signal of good customer service culture.
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 <strong>SpaceVault Storage Cargo Packaging L.L.C</strong> | Research Report</p>
+  </footer>
+
+  <div id="toast-container"></div>
+  <div id="unsaved-indicator" class="unsaved-indicator hidden">💾 Unsaved changes saved automatically</div>
+  <script src="app.js"></script>
+</body>
+</html>
