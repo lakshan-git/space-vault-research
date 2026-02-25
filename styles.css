@@ -999,7 +999,7 @@ cite { font-size: 0.85rem; color: var(--gray-500); font-style: normal; }
 }
 @keyframes sectionFadeOut {
   from { opacity: 1; transform: scale(1); }
-  to   { opacity: 0; transform: scale(0.98); height: 0; padding: 0; overflow: hidden; }
+  to   { opacity: 0; transform: scale(0.98); }
 }
 
 /* ============================================================

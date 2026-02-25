@@ -235,7 +235,7 @@
         }
       });
     } catch (e) {
-      console.warn('SpaceVault: Could not load saved content', e);
+      console.warn('SpaceVault: Could not load saved content from localStorage (data may be corrupted — try Reset All to restore defaults)', e);
     }
   }
 
@@ -555,7 +555,7 @@
         if (el) el.innerHTML = html;
       });
     } catch (e) {
-      console.warn('SpaceVault: Could not restore custom content', e);
+      console.warn('SpaceVault: Could not restore custom section content from localStorage (data may be corrupted — try Reset All to restore defaults)', e);
     }
   }
 
