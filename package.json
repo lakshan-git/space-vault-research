@@ -1,0 +1,24 @@
+{
+  "name": "space-vault-research",
+  "version": "1.0.0",
+  "description": "Research report website for Space Vault Storage Cargo Packaging L.L.C - Dubai",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshan-git/space-vault-research.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lakshan-git/space-vault-research/issues"
+  },
+  "homepage": "https://github.com/lakshan-git/space-vault-research#readme",
+  "dependencies": {
+    "uuid": "^13.0.0"
+  }
+}
