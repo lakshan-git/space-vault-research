@@ -1,0 +1,598 @@
+{
+  "id": "web-pages",
+  "title": "Web Pages",
+  "description": "SEO-optimized page content for the Space Vault Storage Cargo Packaging L.L.C website rebuild.",
+  "children": [
+    {
+      "id": "page-home",
+      "title": "Home",
+      "slug": "/",
+      "seo": {
+        "title": "Space Vault Storage & Cargo Packaging | Secure Warehousing in Dubai, UAE",
+        "description": "Space Vault Storage Cargo Packaging L.L.C offers premium warehousing, cargo packaging, and storage solutions in Dubai, UAE. Temperature-controlled facilities, 24/7 security, and custom crating services.",
+        "keywords": [
+          "storage Dubai",
+          "cargo packaging Dubai",
+          "warehousing UAE",
+          "secure storage Dubai",
+          "cargo crating services",
+          "temperature controlled storage Dubai",
+          "logistics Dubai"
+        ],
+        "ogType": "website",
+        "canonical": "https://www.spacevaultstorage.com/"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Secure Storage & Expert Cargo Packaging in Dubai",
+          "subheading": "Your trusted partner for warehousing, cargo packaging, and supply-chain solutions across the UAE and beyond.",
+          "cta": { "label": "Get a Free Quote", "href": "/contact" }
+        },
+        {
+          "type": "intro",
+          "heading": "Why Choose Space Vault?",
+          "body": "Space Vault Storage Cargo Packaging L.L.C is a Dubai-based leader in secure storage and professional cargo packaging. We serve businesses, individuals, and government entities with state-of-the-art facilities strategically located near Jebel Ali Port and Al Maktoum International Airport. From climate-controlled warehousing to custom wooden crating, we safeguard your assets every step of the way."
+        },
+        {
+          "type": "features",
+          "heading": "Our Core Capabilities",
+          "items": [
+            {
+              "icon": "warehouse",
+              "title": "Warehousing & Storage",
+              "description": "Flexible short-term and long-term storage in purpose-built, temperature-controlled warehouses with round-the-clock surveillance."
+            },
+            {
+              "icon": "package",
+              "title": "Cargo Packaging & Crating",
+              "description": "ISPM-15 compliant wooden crates, vacuum-sealed packaging, and custom cushioning engineered for safe international transit."
+            },
+            {
+              "icon": "truck",
+              "title": "Logistics & Distribution",
+              "description": "End-to-end logistics coordination including pick-up, inventory management, and last-mile delivery across the GCC."
+            },
+            {
+              "icon": "shield",
+              "title": "Asset Protection",
+              "description": "Multi-layer security featuring CCTV, biometric access, fire suppression systems, and comprehensive insurance coverage."
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "heading": "Trusted Across the Region",
+          "items": [
+            { "value": "50,000+", "label": "Sq. Ft. of Warehouse Space" },
+            { "value": "1,200+", "label": "Clients Served" },
+            { "value": "99.9%", "label": "Damage-Free Delivery Rate" },
+            { "value": "24/7", "label": "Facility Monitoring" }
+          ]
+        },
+        {
+          "type": "cta-banner",
+          "heading": "Ready to Secure Your Cargo?",
+          "body": "Contact our team today for a tailored storage and packaging plan.",
+          "cta": { "label": "Request a Quote", "href": "/contact" }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "page-about",
+      "title": "About Us",
+      "slug": "/about",
+      "seo": {
+        "title": "About Space Vault Storage Cargo Packaging | Dubai Warehousing Experts",
+        "description": "Learn about Space Vault Storage Cargo Packaging L.L.C — a Dubai-based company specializing in secure warehousing, cargo crating, and packaging solutions since 2015.",
+        "keywords": [
+          "about Space Vault Storage",
+          "Dubai storage company",
+          "cargo packaging company UAE",
+          "warehousing experts Dubai",
+          "storage company history"
+        ],
+        "canonical": "https://www.spacevaultstorage.com/about"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "About Space Vault Storage Cargo Packaging",
+          "subheading": "A decade of excellence in safeguarding cargo across the UAE and the Middle East."
+        },
+        {
+          "type": "story",
+          "heading": "Our Story",
+          "body": "Founded in Dubai, Space Vault Storage Cargo Packaging L.L.C was established to address a growing need for reliable, technology-driven storage and cargo packaging services in the UAE. What started as a single warehouse operation has grown into a full-service storage and logistics partner trusted by multinational corporations, SMEs, and government agencies alike. Our facilities near Jebel Ali Free Zone give clients unmatched access to one of the world's busiest trade corridors."
+        },
+        {
+          "type": "mission-vision",
+          "mission": {
+            "heading": "Our Mission",
+            "body": "To provide world-class storage, cargo packaging, and logistics services that protect our clients' assets, optimize their supply chains, and exceed industry standards for safety and reliability."
+          },
+          "vision": {
+            "heading": "Our Vision",
+            "body": "To be the most trusted storage and cargo packaging provider in the Middle East, recognized for innovation, integrity, and an unwavering commitment to customer success."
+          }
+        },
+        {
+          "type": "values",
+          "heading": "Our Core Values",
+          "items": [
+            { "title": "Integrity", "description": "We operate with transparency and honesty in every interaction." },
+            { "title": "Excellence", "description": "We pursue the highest standards in facility management, packaging quality, and customer service." },
+            { "title": "Innovation", "description": "We invest in technology — from IoT-enabled inventory tracking to automated climate control — to stay ahead of industry demands." },
+            { "title": "Sustainability", "description": "We use recyclable packaging materials and energy-efficient warehouse systems to minimize our environmental footprint." }
+          ]
+        },
+        {
+          "type": "team",
+          "heading": "Leadership Team",
+          "body": "Our management team brings decades of combined experience in logistics, supply-chain management, and industrial engineering across the GCC region."
+        },
+        {
+          "type": "certifications",
+          "heading": "Certifications & Compliance",
+          "items": [
+            "ISO 9001:2015 — Quality Management",
+            "ISPM-15 Certified Packaging",
+            "Dubai Civil Defence Approved Facilities",
+            "DMCC Member"
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "page-services",
+      "title": "Services",
+      "slug": "/services",
+      "seo": {
+        "title": "Storage, Cargo Packaging & Logistics Services | Space Vault Dubai",
+        "description": "Explore Space Vault's full range of services: secure warehousing, custom cargo packaging, wooden crating, relocation storage, and supply-chain logistics in Dubai, UAE.",
+        "keywords": [
+          "storage services Dubai",
+          "cargo packaging services",
+          "wooden crating Dubai",
+          "warehousing services UAE",
+          "relocation storage Dubai",
+          "supply chain logistics Dubai"
+        ],
+        "canonical": "https://www.spacevaultstorage.com/services"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Our Services",
+          "subheading": "Comprehensive storage, packaging, and logistics solutions designed to protect and move your cargo with confidence."
+        },
+        {
+          "type": "overview",
+          "heading": "What We Offer",
+          "body": "Space Vault delivers an integrated suite of storage and cargo handling services. Whether you need short-term warehousing during a renovation, ISPM-15 export crating for heavy machinery, or a fully managed inventory program, our team tailors every solution to your specific requirements."
+        }
+      ],
+      "children": [
+        {
+          "id": "service-warehousing",
+          "title": "Warehousing & Storage",
+          "slug": "/services/warehousing-storage",
+          "seo": {
+            "title": "Warehousing & Secure Storage Solutions in Dubai | Space Vault",
+            "description": "Flexible, temperature-controlled warehousing and secure storage solutions in Dubai. Short-term, long-term, and bonded warehouse options near Jebel Ali.",
+            "keywords": [
+              "warehouse Dubai",
+              "secure storage Dubai",
+              "temperature controlled warehouse",
+              "bonded warehouse Dubai",
+              "short term storage UAE"
+            ],
+            "canonical": "https://www.spacevaultstorage.com/services/warehousing-storage"
+          },
+          "sections": [
+            {
+              "type": "hero",
+              "heading": "Warehousing & Secure Storage",
+              "subheading": "State-of-the-art facilities engineered to protect your inventory, equipment, and personal belongings."
+            },
+            {
+              "type": "content",
+              "heading": "Flexible Storage for Every Need",
+              "body": "Our warehouses span over 50,000 sq. ft. of purpose-built space near Jebel Ali Port. Every unit features climate control, 24/7 CCTV monitoring, fire suppression, and pest management. We offer flexible lease terms — from a single pallet bay for a week to an entire warehouse wing for years — so you only pay for what you use.",
+              "features": [
+                "Temperature & humidity-controlled zones (15 °C – 25 °C)",
+                "Racked, block-stack, and open-floor configurations",
+                "Real-time inventory dashboard accessible online",
+                "Dedicated account manager for every client",
+                "Bonded warehouse option for duty-deferred goods"
+              ]
+            },
+            {
+              "type": "cta-banner",
+              "heading": "Need Warehouse Space?",
+              "body": "Request a site tour or get an instant storage quote.",
+              "cta": { "label": "Contact Us", "href": "/contact" }
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "service-cargo-packaging",
+          "title": "Cargo Packaging & Crating",
+          "slug": "/services/cargo-packaging-crating",
+          "seo": {
+            "title": "Cargo Packaging & Custom Wooden Crating in Dubai | Space Vault",
+            "description": "Professional cargo packaging and ISPM-15 compliant wooden crating services in Dubai. Vacuum sealing, cushioning, and export-ready packing for all industries.",
+            "keywords": [
+              "cargo packaging Dubai",
+              "wooden crating Dubai",
+              "ISPM 15 crating",
+              "export packaging UAE",
+              "custom crating services",
+              "vacuum sealed packaging"
+            ],
+            "canonical": "https://www.spacevaultstorage.com/services/cargo-packaging-crating"
+          },
+          "sections": [
+            {
+              "type": "hero",
+              "heading": "Cargo Packaging & Custom Crating",
+              "subheading": "Precision-engineered packaging that keeps your cargo safe from warehouse to destination."
+            },
+            {
+              "type": "content",
+              "heading": "Packaging Engineered for Protection",
+              "body": "Our in-house packaging engineers design custom solutions for every shipment — from delicate electronics and artwork to heavy industrial machinery. All wooden crates are ISPM-15 heat-treated and stamped, meeting international phytosanitary standards for hassle-free customs clearance worldwide.",
+              "features": [
+                "Custom wooden crates and pallets (ISPM-15 certified)",
+                "Vacuum-sealed moisture barrier packaging",
+                "Anti-static and corrosion-inhibitor wrapping",
+                "Foam-in-place and die-cut cushioning inserts",
+                "On-site packing at client facilities available",
+                "Export documentation and marking support"
+              ]
+            },
+            {
+              "type": "cta-banner",
+              "heading": "Get a Packaging Assessment",
+              "body": "Our engineers will evaluate your cargo and recommend the optimal packaging method.",
+              "cta": { "label": "Request Assessment", "href": "/contact" }
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "service-relocation",
+          "title": "Relocation & Moving Storage",
+          "slug": "/services/relocation-moving-storage",
+          "seo": {
+            "title": "Relocation & Moving Storage Services in Dubai | Space Vault",
+            "description": "Secure short-term and long-term moving storage in Dubai for residential and commercial relocations. Climate-controlled units and flexible terms.",
+            "keywords": [
+              "moving storage Dubai",
+              "relocation storage UAE",
+              "residential storage Dubai",
+              "commercial moving storage",
+              "furniture storage Dubai"
+            ],
+            "canonical": "https://www.spacevaultstorage.com/services/relocation-moving-storage"
+          },
+          "sections": [
+            {
+              "type": "hero",
+              "heading": "Relocation & Moving Storage",
+              "subheading": "Safe, flexible storage solutions for individuals and businesses in transition."
+            },
+            {
+              "type": "content",
+              "heading": "Storage That Fits Your Move",
+              "body": "Whether you are relocating your home, office, or retail space, Space Vault provides clean, climate-controlled storage units to keep your belongings secure during the transition. Our team handles pick-up, inventory, storage, and re-delivery — so you can focus on settling in.",
+              "features": [
+                "Residential furniture and household storage",
+                "Office equipment and IT hardware storage",
+                "Vehicle and equipment storage bays",
+                "Inventory-managed storage with photo documentation",
+                "Flexible durations — weekly, monthly, or yearly plans",
+                "White-glove pick-up and delivery service"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "service-logistics",
+          "title": "Logistics & Distribution",
+          "slug": "/services/logistics-distribution",
+          "seo": {
+            "title": "Logistics & Distribution Services in Dubai | Space Vault",
+            "description": "End-to-end logistics and distribution solutions in Dubai, UAE. Freight coordination, inventory management, and last-mile delivery across the GCC.",
+            "keywords": [
+              "logistics Dubai",
+              "distribution services UAE",
+              "freight coordination Dubai",
+              "last mile delivery GCC",
+              "supply chain management Dubai"
+            ],
+            "canonical": "https://www.spacevaultstorage.com/services/logistics-distribution"
+          },
+          "sections": [
+            {
+              "type": "hero",
+              "heading": "Logistics & Distribution",
+              "subheading": "Seamless freight coordination and distribution across the GCC and beyond."
+            },
+            {
+              "type": "content",
+              "heading": "Streamlined Supply-Chain Solutions",
+              "body": "Space Vault's logistics division coordinates the movement of goods from origin to destination. Leveraging our proximity to Jebel Ali Port, Dubai's road network, and air-cargo hubs, we orchestrate inbound receiving, inventory staging, order fulfillment, and last-mile delivery with precision.",
+              "features": [
+                "Inbound and outbound freight coordination",
+                "Cross-docking and transshipment",
+                "Pick, pack, and ship fulfillment",
+                "Real-time shipment tracking",
+                "Customs clearance support",
+                "Same-day and next-day delivery within the UAE"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "page-industries",
+      "title": "Industries We Serve",
+      "slug": "/industries",
+      "seo": {
+        "title": "Industries We Serve | Storage & Packaging for Every Sector — Space Vault Dubai",
+        "description": "Space Vault provides specialized storage and cargo packaging for oil & gas, construction, retail, art, healthcare, government, and e-commerce industries in Dubai, UAE.",
+        "keywords": [
+          "industrial storage Dubai",
+          "oil gas cargo packaging",
+          "construction equipment storage UAE",
+          "art storage Dubai",
+          "e-commerce fulfillment Dubai",
+          "healthcare storage solutions"
+        ],
+        "canonical": "https://www.spacevaultstorage.com/industries"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Industries We Serve",
+          "subheading": "Tailored storage and packaging solutions for the sectors that drive the UAE economy."
+        },
+        {
+          "type": "overview",
+          "heading": "Sector-Specific Expertise",
+          "body": "Every industry has unique storage and handling requirements. Space Vault's team combines deep domain knowledge with versatile infrastructure to deliver compliant, efficient, and cost-effective solutions — whether you are shipping oil-field equipment to offshore rigs or storing fine art for a gallery exhibition."
+        }
+      ],
+      "children": [
+        {
+          "id": "industry-oil-gas",
+          "title": "Oil & Gas",
+          "sections": [
+            {
+              "type": "content",
+              "heading": "Oil & Gas Storage & Packaging",
+              "body": "We handle heavy, high-value oil-field equipment — from drill bits and BOPs to subsea manifolds. Our team builds custom skids and crates rated for extreme weights, and our bonded warehouse option simplifies duty management for equipment in transit between offshore projects.",
+              "features": [
+                "Heavy-lift crating up to 20 tonnes",
+                "VCI corrosion-inhibitor packaging",
+                "Bonded and free-zone storage",
+                "HSE-compliant handling procedures"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "industry-construction",
+          "title": "Construction & Infrastructure",
+          "sections": [
+            {
+              "type": "content",
+              "heading": "Construction & Infrastructure Storage",
+              "body": "Secure open-yard and covered storage for building materials, heavy machinery, and project supplies. We support Dubai's fast-paced construction sector with just-in-time delivery to job sites and inventory controls that prevent project delays.",
+              "features": [
+                "Open-yard and covered storage options",
+                "Tool and equipment tracking",
+                "Just-in-time site delivery",
+                "Project staging and kitting"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "industry-retail-ecommerce",
+          "title": "Retail & E-Commerce",
+          "sections": [
+            {
+              "type": "content",
+              "heading": "Retail & E-Commerce Fulfillment",
+              "body": "From seasonal inventory overflow to full outsourced fulfillment, Space Vault supports retailers and e-commerce brands with racked storage, pick-pack-ship workflows, and same-day dispatch within the UAE.",
+              "features": [
+                "SKU-level inventory management",
+                "Pick, pack, and ship services",
+                "Returns processing",
+                "Branded packaging options",
+                "Integration with major e-commerce platforms"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "industry-art-antiques",
+          "title": "Art & Antiques",
+          "sections": [
+            {
+              "type": "content",
+              "heading": "Art & Antiques Storage and Handling",
+              "body": "Climate-controlled, vibration-dampened vaults protect paintings, sculptures, and antiques. Our fine-art handlers use museum-grade packing materials and custom crates lined with acid-free tissue and foam.",
+              "features": [
+                "Climate-controlled art vaults (21 °C ± 1 °C, 50% RH)",
+                "Museum-grade crating and packing",
+                "White-glove installation and de-installation",
+                "Insurance coordination"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "industry-healthcare",
+          "title": "Healthcare & Pharmaceuticals",
+          "sections": [
+            {
+              "type": "content",
+              "heading": "Healthcare & Pharmaceutical Storage",
+              "body": "GDP-compliant storage zones with validated temperature mapping ensure pharmaceutical products, medical devices, and lab equipment remain within specification from receipt to dispatch.",
+              "features": [
+                "2 °C – 8 °C cold storage and ambient zones",
+                "Temperature excursion alerts",
+                "Lot and batch tracking",
+                "GDP and DHA compliance support"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "industry-government",
+          "title": "Government & Defence",
+          "sections": [
+            {
+              "type": "content",
+              "heading": "Government & Defence Storage",
+              "body": "High-security storage with restricted access controls for government archives, defence equipment, and sensitive materials. All facilities meet Dubai Civil Defence standards and can be configured to meet additional classification requirements.",
+              "features": [
+                "Biometric and multi-factor access control",
+                "CCTV with 90-day retention",
+                "Classified-material handling protocols",
+                "Compliance with Dubai Municipality and Civil Defence regulations"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "page-contact",
+      "title": "Contact Us",
+      "slug": "/contact",
+      "seo": {
+        "title": "Contact Space Vault Storage Cargo Packaging | Get a Free Quote — Dubai",
+        "description": "Contact Space Vault Storage Cargo Packaging L.L.C in Dubai for a free storage or packaging quote. Call, email, or visit our facility near Jebel Ali.",
+        "keywords": [
+          "contact Space Vault",
+          "storage quote Dubai",
+          "cargo packaging quote",
+          "warehouse Dubai contact",
+          "Space Vault location"
+        ],
+        "canonical": "https://www.spacevaultstorage.com/contact"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Contact Us",
+          "subheading": "Get in touch for a free consultation, site tour, or instant storage quote."
+        },
+        {
+          "type": "contact-info",
+          "heading": "Reach Out to Our Team",
+          "phone": "+971-4-XXX-XXXX",
+          "email": "info@spacevaultstorage.com",
+          "address": "Warehouse [X], Jebel Ali Industrial Area, Dubai, UAE",
+          "hours": "Sunday – Thursday: 8:00 AM – 6:00 PM | Saturday: 9:00 AM – 1:00 PM"
+        },
+        {
+          "type": "form",
+          "heading": "Request a Quote",
+          "fields": [
+            { "name": "fullName", "label": "Full Name", "type": "text", "required": true },
+            { "name": "email", "label": "Email Address", "type": "email", "required": true },
+            { "name": "phone", "label": "Phone Number", "type": "tel", "required": false },
+            { "name": "company", "label": "Company Name", "type": "text", "required": false },
+            { "name": "service", "label": "Service Required", "type": "select", "options": ["Warehousing & Storage", "Cargo Packaging & Crating", "Relocation Storage", "Logistics & Distribution", "Other"], "required": true },
+            { "name": "message", "label": "Message / Requirements", "type": "textarea", "required": true }
+          ]
+        },
+        {
+          "type": "map",
+          "heading": "Our Location",
+          "coordinates": { "lat": 24.9857, "lng": 55.0272 },
+          "note": "Located near Jebel Ali Port and Al Maktoum International Airport for easy freight access."
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "page-faq",
+      "title": "FAQ",
+      "slug": "/faq",
+      "seo": {
+        "title": "Frequently Asked Questions | Storage & Cargo Packaging — Space Vault Dubai",
+        "description": "Find answers to common questions about Space Vault's storage facilities, cargo packaging services, pricing, and security measures in Dubai, UAE.",
+        "keywords": [
+          "storage FAQ Dubai",
+          "cargo packaging questions",
+          "warehouse FAQ UAE",
+          "Space Vault FAQ"
+        ],
+        "canonical": "https://www.spacevaultstorage.com/faq"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Frequently Asked Questions",
+          "subheading": "Quick answers to the questions we hear most."
+        },
+        {
+          "type": "faq",
+          "items": [
+            {
+              "question": "What types of goods can you store?",
+              "answer": "We store a wide range of goods including commercial inventory, personal household items, industrial equipment, vehicles, fine art, pharmaceuticals, and government archives. Hazardous materials are handled on a case-by-case basis subject to Dubai Civil Defence approval."
+            },
+            {
+              "question": "Are your warehouses temperature-controlled?",
+              "answer": "Yes. Our facilities feature multiple climate zones ranging from cold storage (2 °C – 8 °C) to standard ambient (15 °C – 25 °C). Humidity is maintained at 45 – 55% RH in sensitive storage areas."
+            },
+            {
+              "question": "What packaging standards do you follow?",
+              "answer": "All wooden crates and pallets are ISPM-15 heat-treated and stamped. We also follow ASTM D4169 and ISTA 3A testing protocols to validate our packaging designs for transit resilience."
+            },
+            {
+              "question": "Do you offer short-term storage?",
+              "answer": "Absolutely. We offer flexible terms starting from as little as one week. This is ideal for project staging, event storage, or goods in transit awaiting customs clearance."
+            },
+            {
+              "question": "How is my cargo secured?",
+              "answer": "Security measures include 24/7 CCTV with 90-day footage retention, biometric access control, perimeter fencing, fire detection and suppression systems, and on-site security personnel. Comprehensive insurance options are available."
+            },
+            {
+              "question": "Can you pick up and deliver my goods?",
+              "answer": "Yes. Our logistics team provides door-to-door pick-up and delivery across the UAE. White-glove service is available for fragile or high-value items."
+            },
+            {
+              "question": "How do I get a quote?",
+              "answer": "You can request a quote through our online form, call us directly, or email info@spacevaultstorage.com. We typically respond within 2 business hours."
+            },
+            {
+              "question": "Do you provide bonded warehouse services?",
+              "answer": "Yes. Our bonded warehouse facility allows you to store imported goods without paying customs duty until the goods are released for local consumption or re-exported."
+            }
+          ]
+        }
+      ],
+      "children": []
+    }
+  ]
+}
