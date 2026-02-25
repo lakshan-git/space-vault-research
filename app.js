@@ -156,12 +156,15 @@
 
   // Ensure a URL uses only http/https protocols to prevent javascript: injection
   function sanitizeUrl(url) {
-    if (!url) return '#';
+    if (!url) return '';
+    // Block protocol-relative URLs (//example.com) and non-http(s) schemes
+    const trimmed = url.trim();
+    if (trimmed.startsWith('//')) return '';
     try {
-      const parsed = new URL(url);
-      if (parsed.protocol === 'http:' || parsed.protocol === 'https:') return url;
+      const parsed = new URL(trimmed);
+      if (parsed.protocol === 'http:' || parsed.protocol === 'https:') return trimmed;
     } catch (e) { /* invalid URL */ }
-    return '#';
+    return '';
   }
 
   // Helper: create a section-title heading element
@@ -376,8 +379,8 @@
       } else {
         if (isUrl) {
           const a = document.createElement('a');
-          a.href = sanitizeUrl(item.value);
-          a.target = '_blank';
+          const safe = sanitizeUrl(item.value);
+          if (safe) { a.href = safe; a.target = '_blank'; }
           a.textContent = item.value;
           valSpanWrap.appendChild(a);
         } else {
@@ -504,8 +507,8 @@
       const urlDisplay = item.url.replace(/^https?:\/\//, '');
       const linkEl = document.createElement('a');
       linkEl.className = 'social-link';
-      linkEl.href = sanitizeUrl(item.url);
-      linkEl.target = '_blank';
+      const safeSocialUrl = sanitizeUrl(item.url);
+      if (safeSocialUrl) { linkEl.href = safeSocialUrl; linkEl.target = '_blank'; }
       linkEl.textContent = urlDisplay;
 
       if (editMode) {
@@ -618,8 +621,8 @@
           });
         } else if (isUrl) {
           const a = document.createElement('a');
-          a.href = sanitizeUrl(cell);
-          a.target = '_blank';
+          const safeCell = sanitizeUrl(cell);
+          if (safeCell) { a.href = safeCell; a.target = '_blank'; }
           a.textContent = cell;
           td.appendChild(a);
         } else {
@@ -908,7 +911,7 @@
     const grid = document.createElement('div');
     grid.className = 'swot-grid';
 
-    var quadrants = [
+    const quadrants = [
       { key: 'strengths', label: '💪 Strengths', cls: 'strengths' },
       { key: 'weaknesses', label: '⚠️ Weaknesses', cls: 'weaknesses' },
       { key: 'opportunities', label: '🚀 Opportunities', cls: 'opportunities' },
