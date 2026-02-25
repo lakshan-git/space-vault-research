@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Vault Storage — Research Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-icon">🏢</span>
+      <span class="logo-text">SpaceVault Research</span>
+      <button id="sidebar-toggle" class="sidebar-toggle-btn" title="Collapse sidebar">&#8249;</button>
+    </div>
+    <nav class="sidebar-nav">
+      <ul id="nav-list">
+        <li class="nav-item active" data-page="overview"><span class="nav-icon">📊</span><span class="nav-label">Overview</span></li>
+        <li class="nav-item" data-page="services"><span class="nav-icon">🛠️</span><span class="nav-label">Services</span></li>
+        <li class="nav-item" data-page="pricing"><span class="nav-icon">💰</span><span class="nav-label">Pricing</span></li>
+        <li class="nav-item" data-page="online-presence"><span class="nav-icon">🌐</span><span class="nav-label">Online Presence</span></li>
+        <li class="nav-item" data-page="reviews"><span class="nav-icon">⭐</span><span class="nav-label">Reviews & Reputation</span></li>
+        <li class="nav-item" data-page="employment"><span class="nav-icon">👥</span><span class="nav-label">Employment & Team</span></li>
+        <li class="nav-item" data-page="competitive"><span class="nav-icon">📈</span><span class="nav-label">Competitive Analysis</span></li>
+        <li class="nav-item" data-page="seo"><span class="nav-icon">🔍</span><span class="nav-label">SEO Analysis</span></li>
+        <li class="nav-item" data-page="resources"><span class="nav-icon">🔗</span><span class="nav-label">Resources & Links</span></li>
+      </ul>
+    </nav>
+    <div class="sidebar-footer">
+      <button id="reset-btn" class="reset-btn" aria-label="Reset all content to defaults">↺ Reset All</button>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <div class="main-wrapper">
+    <!-- Header -->
+    <header class="dashboard-header">
+      <div class="header-left">
+        <button id="mobile-menu-btn" class="mobile-menu-btn">☰</button>
+        <h1 class="header-title">Space Vault Storage — Research Dashboard</h1>
+      </div>
+      <div class="header-right">
+        <label class="edit-toggle-label">
+          <span class="edit-toggle-text">Edit Mode</span>
+          <div class="toggle-pill">
+            <input type="checkbox" id="edit-mode-toggle" />
+            <span class="toggle-slider"></span>
+          </div>
+        </label>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <main id="page-content" class="page-content">
+      <!-- Rendered dynamically by app.js -->
+    </main>
+  </div>
+
+  <!-- Add Section Modal -->
+  <div id="add-section-modal" class="modal-overlay" style="display:none;">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>Add New Section</h3>
+        <button class="modal-close-btn" id="modal-close-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-subtitle">Choose a content type to add:</p>
+        <div class="modal-options">
+          <button class="modal-option-btn" data-type="text">📝 Text Block</button>
+          <button class="modal-option-btn" data-type="card">🃏 Card</button>
+          <button class="modal-option-btn" data-type="table">📋 Table</button>
+          <button class="modal-option-btn" data-type="list">📌 List</button>
+          <button class="modal-option-btn" data-type="stats">📊 Stats Card</button>
+          <button class="modal-option-btn" data-type="review">⭐ Review Card</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm Modal -->
+  <div id="confirm-modal" class="modal-overlay" style="display:none;">
+    <div class="modal-box modal-box--sm">
+      <div class="modal-header">
+        <h3 id="confirm-title">Confirm</h3>
+      </div>
+      <div class="modal-body">
+        <p id="confirm-message"></p>
+        <div class="modal-actions">
+          <button id="confirm-yes-btn" class="btn btn-danger">Yes, proceed</button>
+          <button id="confirm-no-btn" class="btn btn-secondary">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
